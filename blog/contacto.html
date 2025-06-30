@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contacto | Mateo Leiman</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Blog</a></li>
+        <li><a href="/linktree-main/index.html">Linktree</a></li>
+        <li><a href="../portfolio/portfolio.html">Portfolio</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="contacto-contenedor">
+    <h1>Contacto</h1>
+    <p>Si querés escribirme para charlar sobre inteligencia artificial, proyectos o lo que sea, te dejo mis datos de contacto:</p>
+
+    <div class="info-contacto">
+      <p><strong>📧 Email:</strong> <a href="mailto:mateouade4@gmail.com">mateouade4@gmail.com</a></p>
+      <p><strong>📱 WhatsApp:</strong> <a href="https://wa.me/541123970431" target="_blank">11 2397-0431</a></p>
+      <p><strong>📷 Instagram:</strong> <a href="https://instagram.com/mateoleiman" target="_blank">@mateoleiman</a></p>
+    </div>
+
+    <hr style="margin: 40px 0;">
+
+    <h2>También podés enviarme un mensaje directo desde acá:</h2>
+
+    <form action="https://formsubmit.co/mateouade4@gmail.com" method="POST">
+      <input type="text" name="nombre" placeholder="Tu nombre" class="boton" required><br><br>
+      <input type="email" name="email" placeholder="Tu email" class="boton" required><br><br>
+      <textarea name="mensaje" placeholder="Escribí tu mensaje aquí..." rows="6" class="boton" required></textarea><br><br>
+
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="gracias.html">
+
+      <button type="submit" method="POST" class="boton">Enviar</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mateo Leiman | Blog sobre IA</p>
+  </footer>
+</body>
+</html>
